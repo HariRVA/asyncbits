@@ -61,11 +61,12 @@ const WebsiteMeta = ({ data, settings, canonical, title, description, image, typ
                     }
                 `}</script>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135873709-1"/>
-                <script content="window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments)}
                     gtag('js', new Date());
-                    gtag('config', 'UA-135873709-1');" />
-
+                    gtag('config', 'UA-135873709-1');"
+                </script>
 
             </Helmet>
             <ImageMeta image={shareImage} />
