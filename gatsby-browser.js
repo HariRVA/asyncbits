@@ -9,12 +9,12 @@
  * via ids/classnames etc.
  *
  */
-var trustAllScripts = function () {
-    var scriptNodes = document.querySelectorAll('.load-external-scripts script');
+const trustAllScripts = function () {
+    const scriptNodes = document.querySelectorAll('.load-external-scripts script');
 
-    for (var i = 0; i < scriptNodes.length; i += 1) {
-        var node = scriptNodes[i];
-        var s = document.createElement('script');
+    for (let i = 0; i < scriptNodes.length; i += 1) {
+        const node = scriptNodes[i];
+        const s = document.createElement('script');
         s.type = node.type || 'text/javascript';
 
         if (node.attributes.src) {

@@ -148,7 +148,6 @@ blockquote:after,
 q:before,
 q:after {
     content: "";
-    content: none;
 }
 table {
     border-spacing: 0;
@@ -666,6 +665,7 @@ h6 {
     padding-bottom: 20px;
     color: #fff;
     background: var(--color-base);
+/*    background-image: url(https://demo.ghost.io/content/images/size/w1000/2017/07/blog-cover.jpg); */
 }
 
 .site-nav-item {
@@ -795,10 +795,7 @@ h6 {
     transition-duration: 0.5s;
     transition-timing-function: ease;
     transition-delay: 0s;
-    padding-top: 0px;
-    padding-right: 20px;
-    padding-bottom: 40px;
-    padding-left: 20px;
+    padding: 0 20px 40px;
     background: 50% #fff;
     border-radius: 5px;
 }
