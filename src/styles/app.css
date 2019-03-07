@@ -665,7 +665,8 @@ h6 {
     padding-bottom: 20px;
     color: #fff;
     background: var(--color-base);
-/*    background-image: url(https://demo.ghost.io/content/images/size/w1000/2017/07/blog-cover.jpg); */
+    background-image: url(/images/site-head.png);
+    background-repeat: repeat;
 }
 
 .site-nav-item {
@@ -686,7 +687,7 @@ h6 {
 }
 
 .site-logo {
-    height: 25px;
+    height: 45px;
 }
 
 .site-mast {
