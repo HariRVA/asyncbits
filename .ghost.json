@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "http://ghost.asyncbits.com",
+    "contentApiKey": "d1dfd7740038f20057fd62ef7e"
+  },
+  "production": {
+    "apiUrl": "http://ghost.asyncbits.com",
+    "contentApiKey": "d1dfd7740038f20057fd62ef7e"
+  }
+}

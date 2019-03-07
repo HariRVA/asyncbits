@@ -1,0 +1,4 @@
+# https://www.netlify.com/docs/redirects/
+
+https://asyncbits.netlify.com/* https://blog.nagarajan.io/:splat 301!
+http://asyncbits.netlify.com/* https://blog.nagarajan.io/:splat 301!
