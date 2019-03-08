@@ -39,7 +39,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         <div className="site-mast">
                             <div className="site-mast-left">
                                 <Link to="/">
-
+                                    <img className="site-logo" src="/images/icons/logo.png" alt={site.title} />
                                 </Link>
                             </div>
                             <div className="site-mast-right">
@@ -50,7 +50,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         { isHome ?
                             <div className="site-banner">
                                 <h1 className="site-banner-title">
-                                    <img className="site-logo" src="/images/icons/logo.png" alt={site.title} />
+
                                     {site.title}</h1>
                                 <p className="site-banner-desc">{site.description}</p>
                             </div> :

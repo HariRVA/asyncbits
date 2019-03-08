@@ -691,7 +691,8 @@ h6 {
 }
 
 .site-logo {
-    height: 45px;
+    filter: invert(100%);
+    height: 60px;
 }
 
 .site-mast {
