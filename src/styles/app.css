@@ -553,7 +553,11 @@ h6 {
     height: 500px;
     object-fit: cover;
 }
-
+@media (max-width: 500px) {
+    .post-feature-image img {
+        height: 250px;
+    }
+}
 .content-body h1,
 .content-body h2,
 .content-body h3,
