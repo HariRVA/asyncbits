@@ -1,23 +1,23 @@
 {
-  "name": "gatsby-starter-ghost",
-  "description": "A starter template to build lightning fast websites with Ghost and Gatsby",
+  "name": "asyncbits.com",
+  "description": "Ideas and thoughts from one nerd to another",
   "version": "1.0.0",
   "license": "MIT",
-  "author": "Ghost Foundation",
-  "homepage": "https://docs.ghost.org/api/gatsby/",
+  "author": "KNSR LLC",
+  "homepage": "https://asyncbits.com/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tryghost/gatsby-starter-ghost.git"
+    "url": "git+https://github.com/HariRVA/asyncbits.com.git"
   },
   "engines": {
     "node": ">= 8.9.0"
   },
   "bugs": {
-    "url": "https://github.com/tryghost/gatsby-starter-ghost/issues"
+    "url": "https://github.com/HariRVA/asyncbits.com/issues"
   },
   "keywords": [
-    "gatsby",
-    "ghost"
+    "hari nagarajan",
+    "asyncbits"
   ],
   "main": "n/a",
   "scripts": {
@@ -54,6 +54,7 @@
     "prop-types": "^15.7.2",
     "react": "16.8.3",
     "react-dom": "16.8.3",
-    "react-helmet": "5.2.0"
+    "react-helmet": "5.2.0",
+    "yarn": "^1.16.0"
   }
 }

@@ -35,7 +35,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <div className="viewport-top">
                 {/* The main header section on top of the screen */}
                 <header className="site-head">
-                    <div className="container">
+                    <div className="container" id="site-top">
                         <div className="site-mast">
                             <div className="site-mast-left">
                                 <Link to="/">
@@ -54,7 +54,10 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                     {site.title}</h1>
                                 <p className="site-banner-desc">{site.description}</p>
                             </div> :
-                            null}
+                            <div className="site-banner-not-home">
+                                <h1 className="site-banner-title-not-home">
+                                    {site.title}</h1>
+                            </div>}
                         <nav className="site-nav">
                             <div className="site-nav-left">
                                 {/* The navigation items as setup in Ghost */}
