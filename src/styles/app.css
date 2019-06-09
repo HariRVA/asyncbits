@@ -694,7 +694,7 @@ h6 {
 }
 
 .site-logo {
-    filter: invert(100%);
+    filter: drop-shadow(2px 4px 4px black);
     height: 75px;
 }
 
